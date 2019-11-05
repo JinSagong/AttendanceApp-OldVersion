@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jin.attendance_archive.CheckActivity">
+    <item
+        android:id="@+id/send_check"
+        android:orderInCategory="10"
+        android:title="출석체크"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/add_att"
+        android:orderInCategory="1"
+        android:title="추가"
+        app:showAsAction="always" />
+</menu>

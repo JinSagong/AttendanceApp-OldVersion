@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WHITE"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/login_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="아이디를 입력해주세요."
+            android:background="@android:drawable/editbox_background_normal"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:textColor="@color/BLACK" />
+
+        <Button
+            android:id="@+id/log_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:background="@drawable/button"
+            android:textColor="@color/WHITE"
+            android:text="로그인" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textColor="@color/BLACK" />
+
+</LinearLayout>

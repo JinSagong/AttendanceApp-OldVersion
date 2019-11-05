@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="이름을 입력하세요."
+        android:textColor="@color/BLACK"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edittext_add4"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:imeOptions="actionDone"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="구분을 선택하세요."
+        android:textColor="@color/BLACK"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/spinner_add4"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:entries="@array/cat4" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2882FF</color>
+    <color name="colorPrimaryDark">#2882FF</color>
+    <color name="colorAccent">#2882FF</color>
+
+    <color name="splash">#2B5697</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="BLACK">#000000</color>
+    <color name="GRAY">#444444</color>
+    <color name="statusTrue">#2EF76E</color>
+    <color name="statusOngoing">#F7F440</color>
+    <color name="statusFalse">#FC2335</color>
+    <color name="info">#E8E8E8</color>
+
+    <color name="dedication">#F5FF89</color>
+    <color name="attendance">#AAFFAA</color>
+    <color name="search">#DDF5FF</color>
+
+</resources>

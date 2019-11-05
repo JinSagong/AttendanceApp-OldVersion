@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">전교인출석체크</string>
+    <string name="not_found">접속량이 많거나 출석체크서버가 열려있지 않습니다.\n주일 2부예배 이후부터 사용 가능합니다.</string>
+    <string name="login">한 번 로그인하면 다음부터 자동으로 로그인됩니다.</string>
+</resources>

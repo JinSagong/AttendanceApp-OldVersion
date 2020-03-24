@@ -23,9 +23,9 @@ public class Client extends AsyncTask<Void, Void, Void> {
     PrintWriter outputWriter;
     BufferedReader inputReader;
 
-    final private String IP_CHURCH_EXTERNAL = "112.223.117.138";
-    final private String IP_HOME_EXTERNAL = "116.125.77.153";
-    final private String IP_HOME_INTERNAL = "192.168.123.104";
+    final private String IP_CHURCH_EXTERNAL = "***.***.***.***";
+    final private String IP_HOME_EXTERNAL = "***.***.***.***";
+    final private String IP_HOME_INTERNAL = "***.***.***.***";
     final private int PORT = 8888;
 
     AddressSharedPreference sp = new AddressSharedPreference();
